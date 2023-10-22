@@ -38,7 +38,7 @@ export default function proDetails() {
         if (params.id == '2'){
             ProjectData={
                 video: `${video2}`,
-                title:'Twitter-pro',
+                title:'Twitter pro',
                 definition:'Twitter pro is a website that looks and operates like the original twitter application. *Team work* ',
                 tools:  'React, typescript, tailwind',
                 btn1: 'https://github.com/noufjafari/Twitter-pro.git',
@@ -50,7 +50,7 @@ export default function proDetails() {
         if (params.id == '3'){
             ProjectData={
                 video: `${video3}`,
-                title:'Course-Track ',
+                title:'Course Track ',
                 definition:'Course Track is a dashboard website where students and teachers add a view their courses. *Team work* ',
                 tools:  'React, typescript, tailwind',
                 btn1: 'https://github.com/noufjafari/Course-Track.git',
@@ -108,7 +108,7 @@ export default function proDetails() {
         if (params.id == '8'){
             ProjectData={
                 video: `${video8}`,
-                title:'Tuwaiq-Academy-React',
+                title:'Tuwaiq Academy - React',
                 definition:'Tuwaiq Academy website is website that looks like the original Tuwaiq Academy website. ',
                 tools:  'React, typescript, tailwind',
                 btn1: 'https://github.com/noufjafari/Tuwaiq-Academy-React.git',
@@ -119,7 +119,7 @@ export default function proDetails() {
         if (params.id == '9'){
             ProjectData={
                 video: `${video9}`,
-                title:'To-do list ',
+                title:'To do list ',
                 definition:'It is a simple website where you can add your tasks to list. ',
                 tools:  'HTML, JAVASCRIPT, css',
                 btn1: 'https://github.com/noufjafari/ToDo-list.git',
@@ -141,7 +141,7 @@ export default function proDetails() {
         if (params.id == '11'){
             ProjectData={
                 video: `${video11}`,
-                title:'Calculator-website ',
+                title:'Calculator website ',
                 definition:'It is a simple calculator website that can Addition, subtraction, multiplication, and division operations. ',
                 tools:  'HTML, JAVASCRIPT, css',
                 btn1: 'https://github.com/noufjafari/Calculator-website.git/',
@@ -152,7 +152,7 @@ export default function proDetails() {
         if (params.id == '12'){
             ProjectData={
                 video: `${video12}`,
-                title:'Tuwaiq-Academy ',
+                title:'Tuwaiq Academy ',
                 definition:'“Tuwaiq Academy website” is website that looks like the original Tuwaiq Academy website. ',
                 tools:  'HTML, CSS',
                 btn1: 'https://github.com/noufjafari/Tuwaiq_Academy.git',
@@ -164,34 +164,34 @@ export default function proDetails() {
   return (
     <div>
         <Nav/>
-      <div className="absolute top-0"><img src={shape1} alt="shape1" className='w-60' /></div>
+      <div className="absolute top-0"><img src={shape1} alt="shape1" className='w-60 max-sm:w-20' /></div>
       {
     ProjectData != null ? 
     <>
-        <div className="flex w-full flex-col mb-20 justify-center items-center">
-            <h1 className='text-4xl font-bold uppercase mt-20 mb-10'>MY Projects</h1>
-            <h1 className='text-2xl uppercase mb-10'>{ProjectData.title}</h1>
+        <div className="flex w-full flex-col mb-20  max-sm:mb-9  justify-center items-center">
+            <h1 className='text-4xl font-bold uppercase mt-20 mb-10 max-sm:text-base max-sm:mt-2'>MY Projects</h1>
+            <h1 className='text-xl uppercase mb-10  max-sm:mb-9 max-sm:text-xs '>{ProjectData.title}</h1>
             <video src={ProjectData.video} className='w-1/2 rounded-lg' autoPlay loop muted></video>
         </div>
 
         <div className="relative">
-      <div className=" flex flex-row-reverse w-full"><img src={shape2} alt="shape2" className='w-60' />
+      <div className=" flex flex-row-reverse w-full"><img src={shape2} alt="shape2" className='w-60 max-sm:w-20' />
     </div>
-    <hr className='border-[11px] relative top-[-2rem] bottom-0'/>
-    <div className=" flex flex-row-reverse w-full mt-0 relative top-[-2rem]"><img src={shape3} alt="shape3" className='w-[14.1rem]' />    </div>
+    <hr className='border-[11px] relative top-[-2rem] max-sm:border-[5px] max-sm:top-[-12px] bottom-0'/>
+    <div className=" flex flex-row-reverse w-full mt-0 relative top-[-2rem] max-sm:top-[-1rem]"><img src={shape3} alt="shape3" className='w-[14.1rem] max-sm:w-[4.6rem]' />    </div>
      </div>
 
-     <div className="items-center justify-center ml-[14rem] flex-col gap-7 flex w-[70%] mb-10 text-left">
-           <h1 className='text-2xl uppercase w-[38rem]'>definition</h1>
-          <h3 className='w-[38rem] text-base mb-20'>{ProjectData.definition}</h3>
+     <div className="items-center justify-center ml-[14rem] flex-col gap-7 flex w-[70%] max-sm:ml-12 mb-10 max-sm:mb-4 text-left">
+           <h1 className='text-2xl uppercase w-[38rem] max-sm:text-sm max-sm:w-[16rem]'>definition</h1>
+          <h3 className='w-[38rem] text-base mb-20 max-sm:mb-7 max-sm:text-[0.60rem] max-sm:w-[16rem]'>{ProjectData.definition}</h3>
 
-          <h1 className='text-2xl uppercase w-[38rem]'>Tools</h1>
-          <h3 className='w-[38rem] text-base mb-20 lowercase'>{ProjectData.tools}</h3>
+          <h1 className='text-2xl uppercase w-[38rem] max-sm:w-[16rem] max-sm:text-sm'>Tools</h1>
+          <h3 className='w-[38rem] max-sm:w-[16rem] text-base max-sm:mb-3 mb-20 lowercase max-sm:text-[0.65rem]'>{ProjectData.tools}</h3>
 
-            <div className="justify-center gap-7 flex w-[38rem] mb-20">
-                <a href={ProjectData.btn1}><button className='w-1/8 px-10 py-2 mt-5 text-lg max-sm:text-xs max-sm:w-28 max-sm:p-2 max-sm:ml-8 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>github</button></a>
-                <a href={ProjectData.btn2}><button className='w-1/8 px-10 py-2 mt-5 text-lg max-sm:text-xs max-sm:w-28 max-sm:p-2 max-sm:ml-8 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>Figma</button></a>
-                <a href={ProjectData.btn3}><button className='w-1/8 px-10 py-2 mt-5 text-lg max-sm:text-xs max-sm:w-28 max-sm:p-2 max-sm:ml-8 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>website</button></a>
+            <div className="justify-center gap-7 flex w-[38rem] max-sm:w-[10rem] max-sm:gap-5 mb-20 max-sm:mb-7">
+                <a href={ProjectData.btn1} ><button className='w-1/8 px-10 py-2 mt-5 text-lg max-sm:text-[0.55rem] max-sm:w-16 max-sm:px-2 max-sm:py-0  rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>github</button></a>
+                <a href={ProjectData.btn2} ><button className='w-1/8 px-10 py-2 mt-5 text-lg  max-sm:text-[0.55rem] max-sm:w-16  max-sm:px-2 max-sm:py-0 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>Figma</button></a>
+                <a href={ProjectData.btn3}><button className='w-1/8 px-10 py-2 mt-5 text-lg max-sm:text-[0.55rem] max-sm:w-16 max-sm:px-2 max-sm:py-0 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>website</button></a>
             </div>
           </div>
 
