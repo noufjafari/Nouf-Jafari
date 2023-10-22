@@ -29,7 +29,7 @@ export default function Projects() {
                   <div className="">
                     <img src={shape7} className="w-80 max-sm:w-28 max-sm:mt-60" alt="" />
                   </div>
-                  <div className="grid grid-cols-2 max-sm:grid-cols-1 max-sm:ml-5 gap-10 ml-24 uppercase ">
+                  <div className="grid grid-cols-2 max-sm:grid-cols-1 max-sm:ml-6 gap-10 ml-24 uppercase ">
                   <div className="flex flex-col text-center gap-10">
                       <a href="/Project/1"><img src={wise} className="w-80 max-sm:w-28 shadow-xl hover:scale-110" alt="" /></a>
                       <p className='max-sm:text-[0.55rem] '>Wise Wallet</p>
@@ -89,7 +89,7 @@ export default function Projects() {
                     <div className="">
                     <img src={shape7} className="w-80 max-sm:w-28 max-sm:mt-60" alt="" />
                     </div>
-                    <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 ml-24 max-sm:ml-5 uppercase">
+                    <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 ml-24 max-sm:ml-6 uppercase">
 
                     <div className="flex flex-col text-center gap-10">
                         <a href="/Project/9"><img src={todo} className="w-80 max-sm:w-28 shadow-xl hover:scale-110" alt="" /></a>
