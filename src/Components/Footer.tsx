@@ -12,8 +12,8 @@ export default function Footer() {
 
                 <a href="https://github.com/noufjafari" className="bg-[#D9D9D9] w-10 max-sm:w-5 hover:scale-75"><img className="bg-[#D9D9D9] w-20" src={github} alt="github" /></a> 
                 <a href="https://www.linkedin.com/in/nouf-jafari/" className="bg-[#D9D9D9] w-10 max-sm:w-5 hover:scale-75"><img className="bg-[#D9D9D9] w-20" src={linked} alt="linkedin" /></a> 
-                <a href="mailto:wisewallet81@gmail.com" className="bg-[#D9D9D9] w-10 max-sm:w-5 hover:scale-75"><img className="bg-[#D9D9D9] w-20" src={email} alt="email" /></a> 
-                <a href="tel:+996508501151" className="bg-[#D9D9D9] w-10 max-sm:w-5 hover:scale-75" ><img className="bg-[#D9D9D9] w-20" src={phone} alt="phone" /></a> 
+                <a href="mailto:engnoufjafari@gmail.com" className="bg-[#D9D9D9] w-10 max-sm:w-5 hover:scale-75"><img className="bg-[#D9D9D9] w-20" src={email} alt="email" /></a> 
+                <a href="tel:+996555035230" className="bg-[#D9D9D9] w-10 max-sm:w-5 hover:scale-75" ><img className="bg-[#D9D9D9] w-20" src={phone} alt="phone" /></a> 
 
                 </div>
         </footer> 
