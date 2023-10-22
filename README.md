@@ -9,7 +9,7 @@ my portfolio where you can find all my information and can see my projects.
 - Tailwind
 
 ### Link of website: 
-https://nouf-jafari.netlify.app/
+https://noufjafari.netlify.app/
 
 ### Image of website:
 ![image](https://github.com/noufjafari/Nouf-Jafari/assets/140402511/ad292414-3ffd-484f-aaa1-e74e31dd66b9)
