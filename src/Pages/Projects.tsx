@@ -58,7 +58,7 @@ export default function Projects() {
                   <div className="">
                   <img src={shape8} className="w-80 max-sm:w-28 max-sm:mt-60" alt="" />
                     </div>
-                    <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mr-[6.5rem] max-sm:mr-5 uppercase">
+                    <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mr-[6.5rem] max-sm:mr-7 uppercase">
 
                     <div className="flex flex-col text-center gap-10">
                         <a href="/Project/5"><img src={disn} className="w-80 max-sm:w-28 shadow-xl hover:scale-110" alt="" /></a>
