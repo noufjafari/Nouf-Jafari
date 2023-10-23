@@ -50,7 +50,7 @@ export default function Home() {
 
       <div className="items-center justify-center gap-28 w-full max-sm:gap-14 max-sm:mb-6 flex mb-12">
       <h1 className='text-5xl uppercase mt-8 font-bold mb-3 max-sm:text-base max-sm:mt-0'>MY CV</h1>
-      <a href="https://drive.google.com/file/d/1twSvmZHOG09qAwLaOhB6dc286KYpsi43/view"><button className='w-1/8 px-10 py-2 mt-5 text-lg max-sm:text-xs max-sm:mt-0 max-sm:w-24 max-sm:px-2 max-sm:py-1 max-sm:mb-2 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>View CV</button></a>
+      <a href="https://drive.google.com/file/d/1twSvmZHOG09qAwLaOhB6dc286KYpsi43/view?usp=sharing"><button className='w-1/8 px-10 py-2 mt-5 text-lg max-sm:text-xs max-sm:mt-0 max-sm:w-24 max-sm:px-2 max-sm:py-1 max-sm:mb-2 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>View CV</button></a>
       </div>
       </div>
 

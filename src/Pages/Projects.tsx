@@ -25,40 +25,43 @@ export default function Projects() {
                   </div>
 
 <div className="w-full">
-              <div className=" flex ">
+              <div className=" flex justify-normal">
                   <div className="">
                     <img src={shape7} className="w-80 max-sm:w-28 max-sm:mt-60" alt="" />
                   </div>
-                  <div className="grid grid-cols-2 max-sm:grid-cols-1 max-sm:ml-6 gap-10 ml-24 uppercase ">
+                  <div className="max-sm:w-5 w-24"></div>
+                  <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-sm:w-28 uppercase ">
                   <div className="flex flex-col text-center gap-10">
                       <a href="/Project/1"><img src={wise} className="w-80 max-sm:w-28 shadow-xl hover:scale-110" alt="" /></a>
-                      <p className='max-sm:text-[0.55rem] '>Wise Wallet</p>
+                      <p className='max-sm:text-[0.55rem] max-sm:w-28'>Wise Wallet</p>
                       </div>
 
                       <div className="flex flex-col text-center gap-10">
                       <a href="/Project/2"><img src={twt} className="w-80 max-sm:w-28 shadow-xl hover:scale-110" alt="" /></a>
-                      <p className='max-sm:text-[0.55rem]'>Twitter pro</p>
+                      <p className='max-sm:text-[0.55rem] max-sm:w-28'>Twitter pro</p>
                       </div>
 
                       <div className="flex flex-col text-center gap-10">
                       <a href="/Project/3"><img src={course} className="w-80 max-sm:w-28 shadow-xl hover:scale-110"alt="" /></a>
-                      <p className='max-sm:text-[0.55rem] '>Course Track</p>
+                      <p className='max-sm:text-[0.55rem] max-sm:w-28'>Course Track</p>
                       </div>
 
                       <div className="flex flex-col text-center gap-10">
                       <a href="/Project/4"><img src={game} className="w-80 max-sm:w-28 shadow-xl hover:scale-110" alt="" /></a>
-                      <p className='max-sm:text-[0.55rem] '>Save The Girl - game</p>
+                      <p className='max-sm:text-[0.55rem] max-sm:w-28'>Save The Girl - game</p>
                       </div>
                   </div>
                   </div>
 
 
-                <div className="flex flex-row-reverse my-10">
+                <div className="flex flex-row-reverse my-10 justify-normal">
 
                   <div className="">
                   <img src={shape8} className="w-80 max-sm:w-28 max-sm:mt-60" alt="" />
                     </div>
-                    <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mr-[6.5rem] max-sm:mr-8 uppercase">
+                    <div className="max-sm:w-5 w-24"></div>
+
+                    <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-sm:w-28 uppercase">
 
                     <div className="flex flex-col text-center gap-10">
                         <a href="/Project/5"><img src={disn} className="w-80 max-sm:w-28 shadow-xl hover:scale-110" alt="" /></a>
@@ -84,12 +87,14 @@ export default function Projects() {
                     </div>
 
 
-                <div className="flex mt-10">
+                <div className="flex mt-10 justify-normal">
 
                     <div className="">
                     <img src={shape7} className="w-80 max-sm:w-28 max-sm:mt-60" alt="" />
                     </div>
-                    <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 ml-24 max-sm:ml-6 uppercase">
+                    <div className="max-sm:w-5 w-24"></div>
+
+                    <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-sm:w-28 uppercase">
 
                     <div className="flex flex-col text-center gap-10">
                         <a href="/Project/9"><img src={todo} className="w-80 max-sm:w-28 shadow-xl hover:scale-110" alt="" /></a>
