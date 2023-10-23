@@ -29,7 +29,7 @@ export default function Projects() {
                   <div className="">
                     <img src={shape7} className="w-80 max-sm:w-28 max-sm:mt-60" alt="" />
                   </div>
-                  <div className="max-sm:w-5 w-24"></div>
+                  <div className="max-sm:w-6 w-24"></div>
                   <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-sm:w-28 uppercase ">
                   <div className="flex flex-col text-center gap-10">
                       <a href="/Project/1"><img src={wise} className="w-80 max-sm:w-28 shadow-xl hover:scale-110" alt="" /></a>
@@ -59,7 +59,7 @@ export default function Projects() {
                   <div className="">
                   <img src={shape8} className="w-80 max-sm:w-28 max-sm:mt-60" alt="" />
                     </div>
-                    <div className="max-sm:w-5 w-24"></div>
+                    <div className="max-sm:w-7 w-[6.3rem]"></div>
 
                     <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-sm:w-28 uppercase">
 
@@ -92,7 +92,7 @@ export default function Projects() {
                     <div className="">
                     <img src={shape7} className="w-80 max-sm:w-28 max-sm:mt-60" alt="" />
                     </div>
-                    <div className="max-sm:w-5 w-24"></div>
+                    <div className="max-sm:w-6 w-24"></div>
 
                     <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 max-sm:w-28 uppercase">
 
