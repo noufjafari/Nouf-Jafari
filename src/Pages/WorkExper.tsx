@@ -23,7 +23,7 @@ export default function WorkExper() {
           </div>
           <h3 className='w-[28rem] max-sm:w-[5rem] text-base max-sm:text-[0.53rem] '>Jun 2022 – Aug 2022 </h3>
           <h3 className='w-[38rem] text-lg max-sm:text-[0.65rem] max-sm:w-[16rem]'>Trained at King Saud bin Abdulaziz University for Health Sciences in the Information Technology Department, I had the opportunity to immerse myself in various facets of their department, including Application, Network, System, and User support, and was succeeded in developing a website capable of converting the paper form into electronic forms.</h3>
-          <a href="https://media.licdn.com/dms/image/D4E2DAQEUUc7n5f7NHQ/profile-treasury-document-cover-images_480/0/1697933891399?e=1698548400&v=beta&t=u_4p_4pw3FGsHtK3-R4acTh5Cs0qvFhkKoOJLIiT_GE"><button className='w-1/8 px-10 py-2 mt-5 text-lg  max-sm:text-[0.55rem] max-sm:w-28  max-sm:px-2 max-sm:py-1 max-sm:ml-16 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>View certificate</button></a>
+          <a href="https://media.licdn.com/dms/image/D4E2DAQGAt9GiI3CU1g/profile-treasury-image-shrink_1280_1280/0/1698060688038?e=1698724800&v=beta&t=zD-4-ZA2UyfBhbIJs-mT0FpDkSdTvS4fyJKIDZl68dU"><button className='w-1/8 px-10 py-2 mt-5 text-lg  max-sm:text-[0.55rem] max-sm:w-28  max-sm:px-2 max-sm:py-1 max-sm:ml-16 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>View certificate</button></a>
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@ export default function WorkExper() {
           </div>
           <h3 className='w-[24.8rem] max-sm:w-[5rem] text-base max-sm:text-[0.53rem]'> Jul 2023 – Sep 2023 </h3>
           <h3 className='w-[38rem] text-lg max-sm:text-[0.65rem] max-sm:w-[16.3rem]'>Trained at Tuwaiq Academy it was an intensive training for website development in HTML, CSS, and Bootstrap to enhance the visual creativity of websites. Additionally, I gained knowledge in the React framework with TypeScript, enabling me to effectively work with APIs and handle CRUD operations. Throughout the program I consistently engaged in lab assignments and projects and developed a final project that was a required component of the boot camp.</h3>
-          <a href="https://media.licdn.com/dms/image/D4E2DAQF9Vg_M_FHBPg/profile-treasury-document-cover-images_480/0/1697940089568?e=1698548400&v=beta&t=KVF0_9NB72_Y7a7XQuA69PAQoF81JfQ98nk8aq3gvGM"><button className='w-1/8 px-10 py-2 mt-5 text-lg  max-sm:text-[0.55rem] max-sm:w-28  max-sm:px-2 max-sm:py-1 max-sm:ml-16 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>View certificate</button></a>
+          <a href="https://media.licdn.com/dms/image/D4E2DAQEHpwWGjfyqpA/profile-treasury-image-shrink_800_800/0/1698060616716?e=1698724800&v=beta&t=Ywq0hT_H9VE0grz4JBMCfAOwB6rf9PdQqBbGIUHiDqQ"><button className='w-1/8 px-10 py-2 mt-5 text-lg  max-sm:text-[0.55rem] max-sm:w-28  max-sm:px-2 max-sm:py-1 max-sm:ml-16 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white focus:outline-none uppercase'>View certificate</button></a>
           </div>
           <div className="w-fit h-[17rem] flex justify-start items-start mb-20 max-sm:mb-14 max-sm:h-[6rem]">
           <img className='w-[16rem] h-[16rem] top-10 max-sm:w-[4rem] max-sm:h-[4rem] max-sm:left-6 max-sm:top-5 relative left-40' src={image1} alt="" />
