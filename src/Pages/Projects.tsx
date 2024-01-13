@@ -52,7 +52,7 @@ export default function Projects() {
                       </div>
                   </div>
                   </div>
-
+ 
 
                 <div className="flex flex-row-reverse my-10 justify-normal">
 

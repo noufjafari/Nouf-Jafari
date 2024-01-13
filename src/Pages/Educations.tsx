@@ -17,7 +17,7 @@ export default function Educations() {
 
           <h3 className='w-[48rem] ml-12 max-sm:w-[17rem] max-sm:text-xs max-sm:ml-0 text-base'>Bachelor's degree in Software Engineering - College of Computer Science and Engineering at University of Jeddah.</h3>
           </div>
-          <a href="https://media.licdn.com/dms/image/D4E2DAQGJ021qOyDwyA/profile-treasury-image-shrink_800_800/0/1698061019463?e=1698724800&v=beta&t=EUxD7ydljnU2EqEqlkkOQnVk7jQkgHg3h9LP__0KxCQ"><button className='w-1/8 px-10 py-2 my-5 text-lg max-sm:text-[0.55rem] max-sm:w-28 
+          <a href="https://www.linkedin.com/in/nouf-jafari/overlay/1635545912500/single-media-viewer/?profileId=ACoAADpZmAsBzqsMxIIs28FaRZLveiMIFfLET-g"><button className='w-1/8 px-10 py-2 my-5 text-lg max-sm:text-[0.55rem] max-sm:w-28 
            max-sm:px-2 max-sm:py-1 max-sm:mb-20 rounded-full bg-[#D9D9D9] hover:bg-zinc-800 hover:text-white 
           focus:outline-none uppercase '>View certificate</button></a>
             </div>
